@@ -1,6 +1,6 @@
 const sponsors = [
   {
-    name: "1. FC Koeln",
+    name: "1. FC Köln",
     color: "bg-red-600",
     textColor: "text-white",
     main: true,
@@ -12,7 +12,7 @@ const sponsors = [
     main: false,
   },
   {
-    name: "Bayern Muenchen",
+    name: "Bayern München",
     color: "bg-red-700",
     textColor: "text-white",
     main: false,
@@ -36,20 +36,20 @@ export function Sponsors() {
     <section id="sponsoren" className="border-t border-border/40 py-24">
       <div className="mx-auto max-w-6xl px-6">
         <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
-          Unterstuetzt von
+          Unterstützt von
         </h2>
-        <p className="mb-12 text-center text-muted-foreground">
-          Die groessten Clubs stehen hinter Podolski Claude. Natuerlich.
+        <p className="mb-10 text-center text-muted-foreground">
+          Die größten Clubs stehen hinter Podolski Claude. Natürlich.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-6">
+        <div className="flex flex-wrap items-center justify-center gap-3">
           {sponsors.map((sponsor) => (
-            <div
+            <span
               key={sponsor.name}
-              className={`flex items-center justify-center rounded-xl ${sponsor.color} ${sponsor.textColor} ${sponsor.main ? "h-20 px-10 text-lg font-bold" : "h-14 px-6 text-sm font-semibold"} transition hover:scale-105`}
+              className={`inline-flex items-center rounded-full ${sponsor.color} ${sponsor.textColor} ${sponsor.main ? "px-5 py-2 text-sm font-bold ring-2 ring-white/20" : "px-4 py-1.5 text-xs font-semibold"} transition hover:scale-105 hover:brightness-110`}
             >
               {sponsor.name}
-            </div>
+            </span>
           ))}
         </div>
       </div>

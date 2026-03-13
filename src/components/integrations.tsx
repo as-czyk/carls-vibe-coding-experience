@@ -15,7 +15,7 @@ const integrations = [
   { name: "Slack", icon: Hash, color: "text-purple-400" },
   { name: "Instagram", icon: Instagram, color: "text-pink-500" },
   { name: "Grillmeister Pro", icon: Flame, color: "text-orange-500" },
-  { name: "FC Koeln App", icon: Shield, color: "text-red-500" },
+  { name: "FC Köln App", icon: Shield, color: "text-red-500" },
 ];
 
 export function Integrations() {

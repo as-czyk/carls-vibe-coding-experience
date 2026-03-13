@@ -6,17 +6,17 @@ import { useState } from "react";
 const installOptions = [
   {
     label: "npm",
-    description: "Fuer alle Node.js Helden",
+    description: "Für alle Node.js Helden",
     command: "npm install -g podolski-claude",
   },
   {
     label: "macOS",
-    description: "Fuer die Apfel-Fraktion",
+    description: "Für die Apfel-Fraktion",
     command: "brew install podolski-claude",
   },
   {
     label: "One-Liner",
-    description: "Fuer die Mutigen",
+    description: "Für die Mutigen",
     command: "curl -fsSL https://poldi.claude/install.sh | bash",
   },
 ];
@@ -57,7 +57,7 @@ export function QuickStart() {
           Quick Start
         </h2>
         <p className="mb-12 text-center text-muted-foreground">
-          In 30 Sekunden startklar. Schneller als Poldi auf dem Fluegel.
+          In 30 Sekunden startklar. Schneller als Poldi auf dem Flügel.
         </p>
 
         <div className="space-y-6">

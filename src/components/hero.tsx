@@ -26,7 +26,7 @@ export function Hero() {
         </p>
 
         <p className="mx-auto mb-10 max-w-xl text-base text-muted-foreground/80">
-          Grills anzuenden, Tore schiessen, E-Mails beantworten, Code deployen
+          Grills anzünden, Tore schießen, E-Mails beantworten, Code deployen
           — Poldi macht das. Einfach per WhatsApp, Telegram oder Zuruf.
         </p>
 

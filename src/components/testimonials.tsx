@@ -6,7 +6,7 @@ const testimonialsRow1 = [
   },
   {
     quote:
-      "Ich habe ihn gebeten, meine Steuererklaerung zu machen. Er hat stattdessen 3 Tore geschossen. Trotzdem: 5 Sterne.",
+      "Ich habe ihn gebeten, meine Steuererklärung zu machen. Er hat stattdessen 3 Tore geschossen. Trotzdem: 5 Sterne.",
     author: "@finanz_frank",
   },
   {
@@ -16,12 +16,12 @@ const testimonialsRow1 = [
   },
   {
     quote:
-      "Mein Startup laeuft seit Podolski Claude komplett autonom. Ich bin nur noch zum Grillen da.",
+      "Mein Startup läuft seit Podolski Claude komplett autonom. Ich bin nur noch zum Grillen da.",
     author: "@founder_max",
   },
   {
     quote:
-      "Er hat mein gesamtes Jira-Board in 4 Minuten abgearbeitet. Dann hat er Koelsch bestellt.",
+      "Er hat mein gesamtes Jira-Board in 4 Minuten abgearbeitet. Dann hat er Kölsch bestellt.",
     author: "@pm_lisa",
   },
 ];
@@ -44,12 +44,12 @@ const testimonialsRow2 = [
   },
   {
     quote:
-      "Das ist wie ein iPhone-Moment, nur mit mehr Grillsosse.",
+      "Das ist wie ein iPhone-Moment, nur mit mehr Grillsoße.",
     author: "@tech_blogger_kai",
   },
   {
     quote:
-      "Er laedt meinen Server schneller als er den Ball im Netz hat. Und das heisst was.",
+      "Er lädt meinen Server schneller als er den Ball im Netz hat. Und das heißt was.",
     author: "@backend_bernd",
   },
 ];

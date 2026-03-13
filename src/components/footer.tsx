@@ -10,7 +10,7 @@ export function Footer() {
             Podolski Claude ist Open Source
           </h3>
           <p className="max-w-md text-sm text-muted-foreground">
-            Von der Community, fuer die Community. Gebaut mit Liebe, Koelsch und
+            Von der Community, für die Community. Gebaut mit Liebe, Kölsch und
             Grillkohle. Jeder kann mitmachen.
           </p>
         </div>
@@ -41,7 +41,7 @@ export function Footer() {
           </p>
           <p className="mt-1">
             &copy; {new Date().getFullYear()} Podolski Claude Contributors.
-            Nicht verbunden mit Anthropic oder dem 1. FC Koeln.
+            Nicht verbunden mit Anthropic oder dem 1. FC Köln.
           </p>
         </div>
       </div>
